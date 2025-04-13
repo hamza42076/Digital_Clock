@@ -23,5 +23,7 @@ else if (newDate.getHours() === 0){
     am_pm.innerText = "AM"
 
 }
-
+else{
+    hr.innerText =  newDate.getHours();
+}
 },1000)
