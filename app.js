@@ -13,8 +13,14 @@ setInterval(function(){
 hr.innerText =newDate.getHours() +":" 
 min.innerText = newDate.getMinutes() +":" 
 sec.innerText = newDate.getSeconds() +":" 
-if(newDate.getHours() > 12){
+if(newDate.getHours() >= 12){
+    hr.innerText = newDate.getHours() -12
     am_pm.innerText = "PM"
+
+}
+else if (newDate.getHours() === 0){
+    hr.innerText = 12
+    am_pm.innerText = "AM"
 
 }
 
