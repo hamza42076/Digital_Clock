@@ -31,15 +31,19 @@ body {
     align-items: center;
     position: relative;
   }
-  
   .day {
     font-size: 28px;
     color: #00FFAA; /* Text color */
     position: absolute;
     top: 20px; /* Adjust positioning to make sure it's inside circle, but near top */
   }
-  
   .time {
     font-size: 40px;
+  }
+  .down-div{
+    position: absolute;
+    bottom: 10%;
+    right: 26%;
+    font-size: 2rem;
   }
   
