@@ -37,14 +37,6 @@ else{
 }
 
 },1000)
-// function fac(n) {
-//     if (n === 1 || n === 0){
-//         return 1;
-//     }
-//     return n * fac(n-1)
-// }
-// let h = fac(6)
-// console.log(h);
 
 
 
